@@ -92,7 +92,7 @@ XXX
 
 $ bbl director-ca-cert > bosh.crt
 $ export BOSH_CA_CERT=bosh.crt
-$ export BOSH_ENVIRONMENT=https://35.146.48.144:25555
+$ export BOSH_ENVIRONMENT=`bbl director-address`
 
 $ bosh alias-env lx
 $ bosh log-in
