@@ -1,3 +1,6 @@
 [submodule "bosh-bootloader"]
 	path = bosh-bootloader
 	url = https://github.com/cloudfoundry/bosh-bootloader
+[submodule "bosh-deployment"]
+	path = bosh-deployment
+	url = https://github.com/cloudfoundry/bosh-deployment
